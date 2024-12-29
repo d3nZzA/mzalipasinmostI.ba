@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - MZ Alipašin Most I</title>
+    <link rel="icon" type="image/x-icon" href="slike/favicon1.ico">
+    <link rel="stylesheet" href="kontakt.css">
+
+</head>
+
+<body>
+
+    <div class="cf">
+        
+        <a href="index.html">
+            <img src="slike/logo.png" class="logo" alt="Logo">
+        </a>
+
+        <h2>MZ ALIPAŠIN MOST I</h2>
+
+        <p style="font-family: Arial, Helvetica, sans-serif; color: #333; font-style: italic;">Pošaljite upit, zahtjev, molbu, pritužbu i ostalo.</p>
+
+        <form method="get" action="mailto:mzamost1@novigradsarajevo.ba">
+
+            <label for="name">IME I PREZIME: </label>
+            <input type="text" id="name" name="subject" placeholder="Vaše ime i prezime" required oninvalid="this.setCustomValidity('Unesite ispravne podatke!')">
+
+            <label for="email">E-MAIL: </label>
+            <input type="email" id="email" name="email" placeholder="Vaša e-mail adresa" required>
+
+            <label for="message">PORUKA: </label>
+            <textarea id="message" name="body" placeholder="Napišite poruku, upit, zahtjev, molbu, pritužbu i ostalo..." rows="5" required></textarea>
+          
+            <button type="submit">POŠALJITE E-MAIL</button>
+
+        </form>
+
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color: #333; font-size: medium;">NAZOVITE NAS: 033 766 270 </h3>
+
+    </div>
+    
+</body>
+</html>

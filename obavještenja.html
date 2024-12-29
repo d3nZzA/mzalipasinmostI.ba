@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="slike/favicon1.ico">
+    <title>Obavještenja - Mjesna zajednica Alipašin Most I</title>
+    <link rel="stylesheet" href="novosti.css">
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #4F709C;
+            margin: 0;
+            padding: 0;
+        }
+
+        .n {
+            width: 100%;
+            background-color: #213555;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            border: 2px solid gold;
+            cursor: pointer; 
+        }
+
+        .n:hover {
+            width: 100%;
+            background-color: #213555;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            border: 2px solid gold;
+            transform: scale(1.1); 
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        .n img {
+            max-width: 400px;
+            max-height: 500px;
+            margin-right: 20px;
+        }
+
+        .n-content {
+            flex-grow: 1;
+            color: GOLD;
+        }
+
+        .n-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .n-message {
+            font-size: 1em;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body class="sve">
+
+    <div>
+        <br>
+        <a href="index.html">
+            <img src="slike/logo.png" class="logo" alt="Logo">
+        </a>
+        <nav>
+          <h1 style = "font-family: Arial, Helvetica, sans-serif; font-weight: 900; font-size: 2rem; color: gold;">MZ ZAJEDNICA ALIPAŠIN MOST I - OBAVJEŠTENJA</h1>
+        </nav>
+    </div>
+
+    <div class="n" onclick="openImage1()">
+        <img src="slike/Obavjestenja/1.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">EURO-ASFALT</div>
+            <p style="font-style: italic;">07.11.2024.</p>
+            <div class="n-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat placeat architecto quam! Recusandae, minus odio, ut saepe eligendi maiores sunt neque, iure ea nihil modi? Praesentium deleniti autem reprehenderit repellat..
+            </div>
+        </div>
+    </div>
+
+    <div class="n" onclick="openImage2()">
+        <img src="slike/Obavjestenja/2.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">OBAVJEŠTENJE</div>
+            <p style="font-style: italic;">25.10.2024.</p>
+            <div class="n-message">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea cupiditate nihil a quod nemo facere est necessitatibus voluptas eaque, consectetur, maiores sed et! Consequuntur dolorum quos beatae quidem nihil? Temporibus?
+            </div>
+        </div>
+    </div>
+
+    <div class="n" onclick="openImage3()">
+        <img src="slike/Obavjestenja/3.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">OBAVJEŠTENJE O JESENJOJ AKCIJI PRIKUPLJANJA OTPADA</div>
+            <p style="font-style: italic;">02.10.2024.</p>
+            <div class="n-message">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae exercitationem explicabo praesentium natus nesciunt blanditiis aut autem aperiam ducimus hic omnis, maiores, dolores magni repudiandae, itaque nam veritatis placeat? Nihil.   
+            </div>
+        </div>
+    </div>
+
+    <div class="n" onclick="openImage4()">
+        <img src="slike/Obavjestenja/5.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">OBAVIJEST ZA PRIJAVU BIRAČA ZA GLASANJE PUTEM MOBILNIH TIMOVA</div>
+            <p style="font-style: italic;">30.08.2024.</p>
+            <div class="n-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui, deleniti fuga fugit numquam amet sunt ullam ex ipsa quis dolorum officiis pariatur tenetur consequatur deserunt eligendi neque dolor explicabo.
+            </div>
+        </div>
+    </div>
+
+    <div class="n" onclick="openImage5()">
+        <img src="slike/Obavjestenja/8.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">OBAVIJEST ZA GRAĐANE OPĆINE NOVI GRAD SARAJEVO</div>
+            <p style="font-style: italic;">23.10.2023.</p>
+            <div class="n-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nulla dignissimos sed fuga culpa quo facere deserunt cumque corporis officiis a aspernatur delectus voluptas obcaecati exercitationem ea voluptatem sunt eligendi?
+            </div>
+        </div>
+    </div>
+
+    <div class="n" onclick="openImage6()">
+        <img src="slike/Obavjestenja/9.jpg" alt="Slika dokumenta">
+        <div class="n-content">
+            <div class="n-title">OBAVJEŠTENJE O JESENJOJ AKCIJI PRIKUPLJANJA OTPADA</div>
+            <p style="font-style: italic;">10.10.2023.</p>
+            <div class="n-message">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos natus necessitatibus ipsam quasi vitae, velit at libero eveniet, a molestias saepe autem dolor consequuntur esse nesciunt debitis deserunt et enim.
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <script>
+
+        function openImage1() {
+            window.open('slike/Obavjestenja/1.jpg', '_blank'); 
+        }
+        function openImage2() {
+            window.open('slike/Obavjestenja/2.jpg', '_blank');
+        }
+        function openImage3() {
+            window.open('slike/Obavjestenja/3.jpg', '_blank');
+        }
+        function openImage4() {
+            window.open('slike/Obavjestenja/5.jpg', '_blank');
+        }
+        function openImage5() {
+            window.open('slike/Obavjestenja/8.jpg', '_blank');
+        }
+        function openImage6() {
+            window.open('slike/Obavjestenja/9.jpg', '_blank');
+        }
+        
+    </script>
+
+</body>
+</html>

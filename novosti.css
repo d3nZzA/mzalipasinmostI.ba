@@ -1,0 +1,193 @@
+.sve{
+	overflow-x: hidden;
+	border-top: 25px solid #f0f0f0;
+	border-bottom: 25px solid #f0f0f0;
+	border-radius: 50%;
+}
+
+hr{
+	border-color: gold;
+  }
+
+h5{
+	color: gold;
+  }
+
+body{
+    color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.slikes:hover{
+	border : solid 2px gold;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.k2{
+	background-size: auto;
+	background-color: #4F709C;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
+  }
+
+.logo {
+	display: flex;
+	width: 10%;
+	max-width: 50px;
+	height: auto;
+	justify-self: center;
+  }
+
+nav {
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px 0;
+}
+  
+nav a {
+	color: gold;
+	text-decoration: none;
+}
+  
+nav a:hover {
+	color: #007BFF;
+	transform: scale(1.2); 
+	transition: transform 0.3s ease-in-out; 
+}
+
+.footer {
+	background-color: #4F709C;
+	color: white;
+	padding: 10px;
+	font-style: italic;
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+}
+  
+.footer-s {
+	text-align: center;
+}
+  
+.footer-s a {
+	color: gold;
+	text-decoration: none;
+}
+  
+.footer-s a:hover {
+	color: #007BFF;
+}
+
+@media (max-width: 768px) {
+	.k2 {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	nav {
+	  flex-direction: column;
+	  gap: 10px;
+	}
+  
+	.logo {
+	  width: 15%;
+	  max-width: 80px;
+	}
+  
+	.footer {
+	  font-size: 0.9rem;
+	  padding: 15px;
+	}
+  
+	.footer-s a {
+	  display: block;
+	  margin-bottom: 10px;
+	}
+  }
+  
+@media (max-width: 768px) {
+	.k2 {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	nav {
+	  flex-direction: column;
+	  gap: 10px;
+	}
+  
+	.logo {
+	  width: 15%;
+	  max-width: 80px;
+	}
+  
+	.footer {
+	  font-size: 0.9rem;
+	  padding: 15px;
+	}
+  
+	.footer-s a {
+	  display: block;
+	  margin-bottom: 10px;
+	}
+  
+	.slikes {
+	  width: 100%;
+	  max-width: 300px;
+	  height: auto;
+	}
+  
+	h2 {
+	  font-size: large;
+	}
+}
+
+@media (max-width: 480px) {
+	nav a {
+	  font-size: 0.9rem;
+	}
+
+	.logo {
+	  width: 20%;
+	  max-width: 60px;
+	}
+
+	.slikes {
+	  max-width: 100%;
+	}
+
+	.footer {
+	  font-size: 0.8rem;
+	}
+
+	.k {
+	  padding: 10px;
+	}
+
+	h2 {
+	  font-size: medium;
+	}
+
+	h5 {
+	  font-size: small;
+	}
+}
+
+@media (min-width: 1024px) {
+	.logo {
+	  width: 8%;
+	  max-width: 70px;
+	}
+
+	nav a {
+	  font-size: 1.2rem;
+	}
+
+	.footer {
+	  font-size: 1rem;
+	  padding: 20px;
+	}
+}
+
